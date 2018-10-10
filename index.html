@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Hospital - Doctor</title>
+  <meta name="description" content="Your Page Description Here">
+  <meta name="author" content="Muhammad Umair Ahmad">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+  <!-- Google Icons
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Google Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- Font Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="fontawesome/css/solid.css">
+  <link rel="stylesheet" href="fontawesome/css/brands.css">
+  <link rel="stylesheet" href="fontawesome/css/regular.css">
+  <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- Starting of Top Bar -->
+  <div id="topBar" class="row blue darken-1">
+    <div class="container">
+      <div class="col hide-on-med-and-down l6">
+        <a href="#contactUs" class="scrollLink white-text">Appointment</a>
+        <a href="#doctors" class="scrollLink white-text">Find A Doctor</a>
+        <a href="#location" class="scrollLink white-text">Location</a>
+      </div>
+      <div id="time" class="col s12 m12 l6 white-text center-align"></div>
+    </div>
+  </div>
+
+  <!-- Starting of Nav Bar -->
+  <nav class="white" id="navBar">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo"><i class="fas fa-stethoscope" style="line-height: 58px;"></i>Hospital name</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger" style="z-index: 5;"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#mainContent" class="scrollLink">About</a></li>
+          <li><a href="#doctors" class="scrollLink">Consultants</a></li>
+          <li><a href="#doctors" class="scrollLink">Doctors</a></li>
+          <li><a href="#contactUs" class="scrollLink">Contact us</a></li>
+          <li><a href="#location" class="scrollLink">Location</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#topBar" class="scrollLink"><i class="fas fa-home md"></i>Home</a></li>
+    <li><a href="#mainContent" class="scrollLink"><i class="fas fa-hospital-alt md"></i>About</a></li>
+    <li><a href="#doctors" class="scrollLink"><i class="fas fa-user-md md"></i>Consultants</a></li>
+    <li><a href="#doctors" class="scrollLink"><i class="fas fa-heartbeat md"></i>Doctors</a></li>
+    <li><a href="#contactUs" class="scrollLink"><i class="fas fa-phone md"></i>Contact us</a></li>
+    <li><a href="#location" class="scrollLink"><i class="fas fa-map-marker-alt md"></i>Location</a></li>
+  </ul>
+
+  <!-- Starting of Slider -->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="images/d1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 class="black-text text-darken-4">We are the best!</h3>
+          <h5 class="light black-text text-darken-3">lorem ipsum dolar smit.</h5>
+          <a href="#contactUs" class="btn scrollLink blue waves-effect waves-lighten hoverable">Contact us</a>
+        </div>
+      </li>
+      <li>
+        <img src="images/d2.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="black-text">Be happy always :)</h3>
+          <h5 class="light blue-text">Spread happines in the world!</h5>
+        </div>
+      </li>
+      <li>
+        <img src="images/d3.png"> <!-- random image -->
+        <div class="caption right-align">
+        </div>
+      </li>
+      <li>
+        <img src="images/d4.png"> <!-- random image -->
+        <div class="caption center-align">
+        </div>
+      </li>
+      <li>
+        <img src="images/d5.jpg"> <!-- random image -->
+        <div class="caption left-align">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Starting of Time Section -->
+  <div class="row blue white-text">
+    <div class="container">
+      <div class="col s12 m4 center-align paddingTop20">
+        <i class="fas fa-tint lg"></i>
+        <h4>Emergency Case</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga id minima iusto, fugit,
+          reprehenderit
+        </p>
+      </div>
+      <div class="col s12 m4 blue darken-1 center-align paddingTop20" style="min-height: 260px;">
+        <i class="far fa-clock lg"></i>
+        <h4>Opening Hours</h4>
+        <div class="row">
+          <div class="col s6">Monday - Friday</div>
+          <div class="col s6">9:00 AM - 6:00 PM</div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s6">Saturday</div>
+          <div class="col s6">10:00 AM - 8:00 PM</div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col s6">Sunday</div>
+          <div class="col s6">5:00 PM - 8:00 PM</div>
+        </div>
+      </div>
+      <div class="col s12 m4 center-align paddingTop20">
+        <i class="fas fa-user-shield lg"></i>
+        <h4>Cancer Care</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fuga id minima iusto, fugit,
+          reprehenderit</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starting of Main Content -->
+  <div class="row" id="mainContent">
+    <div class="container">
+      <div class="col s12 m3">
+        <h5 class="blue-text">Welcome Message</h5>
+        <img src="images/doc.jpeg" alt="Doctor Pic" class="responsive-img">
+      </div>
+      <div class="col s12 m5">
+        <h5>&nbsp;</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit recusandae eum nemo iusto. Vero velit
+          ipsa libero doloremque ab vitae corporis earum deleniti. Officiis aliquid aperiam tempore accusantium
+          ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit recusandae eum nemo iusto.
+          Vero velit
+          ipsa libero doloremque ab vitae corporis earum deleniti. Officiis aliquid aperiam tempore accusantium
+          ducimus.</p>
+      </div>
+      <div class="col s12 m4">
+        <h5 class="blue-text">News &amp; Events</h5>
+        <div class="row">
+          <div class="col s3"><img src="images/logo.png" alt="Image" class="responsive-img"></div>
+          <div class="col s9">
+            <p class="blue-text">15 January, 2019</p>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sint exercitationem fugiat omnis?</p>
+        </div>
+        <div class="row">
+          <div class="col s3"><img src="images/logo.png" alt="Image" class="responsive-img"></div>
+          <div class="col s9">
+            <p class="blue-text">15 June, 2019</p>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est sint exercitationem fugiat omnis?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="container">
+      <div class="col s12 m3">
+        <h5 class="blue-text">Highlight</h5>
+        <p><b>Lorem ipsum, dolor sit amet</b></p>
+        <p>Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor
+          sit amet. Lorem ipsum, dolor sit amet</p>
+      </div>
+      <div class="col s12 m3">
+        <h5>&nbsp;</h5>
+        <p><b>Lorem ipsum, dolor sit amet</b></p>
+        <p>Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor sit amet. Lorem ipsum, dolor
+          sit amet. Lorem ipsum, dolor sit amet</p>
+      </div>
+      <div class="col s12 m3">
+        <h5 class="blue-text">Video</h5>
+        <video class="responsive-video" controls>
+          <source src="videos/video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col s12 m3" id="quickContact">
+        <h5 class="blue-text">Quick Contact</h5>
+        <div class="col s12 green white-text center-align padding10" id="qc1"><i class="fab fa-whatsapp"></i>0312
+          3456789</div>
+        <div class="col s12 grey darken-2 white-text center-align padding10" id="qc2"><i class="fas fa-phone"></i>041
+          0001111</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starting of Team -->
+  <div class="row blue darken-1 white-text center-align" id="doctors">
+    <div class="container">
+      <h3>Our Best Doctors</h3>
+      <div class="col s12 m4">
+        <img src="images/doctor1.jpg" class="circle responsive-img" alt="Doctor Image">
+        <h5>Doctor's Name</h5>
+        <p>Doctor's Qualification</p>
+      </div>
+      <div class="col s12 m4">
+        <img src="images/doctor2.jpeg" class="circle responsive-img" alt="Doctor Image">
+        <h5>Doctor's Name</h5>
+        <p>Doctor's Qualification</p>
+      </div>
+      <div class="col s12 m4">
+        <img src="images/doctor3.jpg" class="circle responsive-img" alt="Doctor Image">
+        <h5>Doctor's Name</h5>
+        <p>Doctor's Qualification</p>
+      </div>
+      <a href="#contactUs" class="btn scrollLink center-align blue waves-effect waves-lighten hoverable tooltipped"
+        data-tooltip="Call, WhatsApp or Email" data-position="bottom">Appointment</a>
+    </div>
+  </div>
+
+  <!-- Starting of Location -->
+  <div class="row" id="location">
+    <h2 class="center-align blue-text">Location</h2>
+    <div id="map"></div>
+  </div>
+
+  <!-- Starting of Contact -->
+  <div class="row center-align" id="contactUs">
+    <div class="container">
+      <div class="col s12 m6">
+        <div class="blue white-text" id="contact1">Call us +92 300 1234567</div>
+      </div>
+      <div class="col s12 m6">
+        <div class="grey darken-3 white-text" id="contact2">Email us <a href="mailto:contact@anywebname.abc" class="white-text">contact@thisweb.abc</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starting of Footer -->
+  <div class="row grey darken-3 white-text" id="footer">
+    <div class="container">
+      <div class="col s12 m3">
+        <h5>Your Visit</h5>
+        <ul>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 1</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 2</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 3</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col s12 m3">
+        <h5>Health Solutions</h5>
+        <ul>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 1</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 2</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 3</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col s12 m3">
+        <h5>Get Involved</h5>
+        <ul>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Appointments</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Billing &amp; Insurance</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Find A Doctor</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1">Maps &amp; Directions</a></li>
+        </ul>
+      </div>
+      <div class="col s12 m3">
+        <h5>Contact Info</h5>
+        <ul>
+          <li class="light grey-text text-lighten-1"><address>Plot # 123, Millat Road, Faisalabad, Pakistan.</address></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fas fa-phone"></i>041
+              0001111</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fas fa-phone"></i>0300
+              1234567</a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fab fa-whatsapp"></i>0312
+              3456789</a></li>
+          <li><a href="mailto:contact@anyweb.abc" class="light grey-text text-lighten-1"><i class="far fa-envelope"></i>contact@anyweb.abc</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starting of Footer Links -->
+  <div class="row grey darken-4 center-align" id="footerLinks">
+    <div class="container">
+      <div class="col s12 m6">
+        <ul>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="JavaScript:void(0)" class="light grey-text text-lighten-1"><i class="fab fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+      <div class="col s12 m6 white-text">
+        <p>&copy; 2018. Designed By: <b>Muhammad Umair Ahmad</b></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Starting of Fixed Action Button -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large blue darken-3 hoverable">
+      <i class="large material-icons">more_vert</i>
+    </a>
+    <ul>
+      <li><a href="#topBar" class="btn-floating red hoverable tooltipped scrollLink" data-position="left" data-tooltip="Go to Top"><i
+            class="fas fa-home"></i></a></li>
+      <li><a href="#location" class="btn-floating pulse grey darken-3 hoverable tooltipped scrollLink" data-position="left"
+          data-tooltip="Location"><i class="fas fa-map-marker-alt red-text"></i></a></li>
+      <li><a href="mailto:m.umairahmad1@gmail.com" class="btn-floating pulse yellow darken-1 hoverable tooltipped"
+          data-position="left" data-tooltip="Email Us"><i class="fas fa-envelope"></i></a></li>
+      <li><a href="web.facebook.com/umairahmad27" target="_blank" class="btn-floating pulse blue darken-3 hoverable tooltipped"
+          data-position="left" data-tooltip="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+    </ul>
+  </div>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- Moment JS Library -->
+  <script src="js/moment-2.22.2.js"></script>
+
+  <!-- JQuery Library -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+  <!-- Google Map Hospital Location -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe5Ow_iGnGoWABubzH6w3-BpZe2jmMqZ0&callback=initMap"></script>
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+
+</html>
