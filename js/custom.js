@@ -30,3 +30,8 @@ function initMap() {
     var marker = new google.maps.Marker({ position: hospitalLocation, map: map });
 }
 initMap();
+
+// Footer
+let date = new Date();
+let year = date.getFullYear();
+document.getElementById('year').innerHTML = year;
